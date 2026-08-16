@@ -7,7 +7,6 @@ altair==4.2.2
 annotated-doc==0.0.5
 annotated-types==0.7.0
 anyio==4.10.0
-appnope==0.1.4
 asttokens==3.0.0
 attrs==25.3.0
 backoff==2.2.1
@@ -115,7 +114,6 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-multipart==0.0.32
 pytz==2024.2
-pywin32==312
 PyYAML==6.0.2
 pyzmq==27.0.1
 querystring-parser==1.2.4
