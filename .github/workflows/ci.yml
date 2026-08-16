@@ -25,6 +25,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./dockerfile  # change if your Dockerfile has a different name or path
+          file: ./dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/telco-fastapi:latest
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/churn-analysis:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/churn-analysis:${{ github.sha }}
