@@ -3,6 +3,9 @@
 venv/
 env/
 
+# local AI guidance
+CLAUDE.md
+
 # OS cruft
 .DS_Store
 
